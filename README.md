@@ -6,19 +6,19 @@ Este projeto foi desenvolvido como parte de um desafio iniciante proposto pelo c
 Funcionalidades:
 O programa permite ao usuário inserir os seguintes dados para duas cartas distintas:
 
-Estado (representado por uma letra)
-Código da carta (combinação do estado e um número)
-Nome da cidade
-População
-Área (em quilômetros quadrados)
-Produto Interno Bruto (PIB)
-Número de pontos turísticos
+Estado (representado por uma letra),
+Código da carta (combinação do estado e um número),
+Nome da cidade,
+População,
+Área (em quilômetros quadrados),
+Produto Interno Bruto (PIB),
+Número de pontos turísticos.
 Após a entrada dos dados para cada carta, o programa exibe as informações cadastradas de forma organizada no terminal.
 
 Próximos Passos:
 Embora este projeto cumpra os requisitos do desafio inicial, algumas possíveis extensões futuras poderão incluir:
 
-Implementação da lógica de comparação entre as cartas para determinar um "vencedor" com base em um atributo escolhido.
-Permitir o cadastro de um número maior de cartas.
-Utilizar estruturas de dados para organizar as informações das cartas de forma mais eficiente.
+Implementação da lógica de comparação entre as cartas para determinar um "vencedor" com base em um atributo escolhido;
+Permitir o cadastro de um número maior de cartas;
+Utilizar estruturas de dados para organizar as informações das cartas de forma mais eficiente;
 Adicionar validação de entrada para garantir que os dados inseridos estejam no formato correto.
