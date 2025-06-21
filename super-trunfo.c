@@ -4,7 +4,7 @@
 int main()
 {
 
-    printf("Desafio Super Trunfo\n");
+    printf("Desafio Super Trunfo!\n");
 
     // Declaração de variáveis da primeira carta:
     char estado1[2], codigo_carta1[4], nome_cidade1[50];
