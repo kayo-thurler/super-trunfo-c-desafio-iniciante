@@ -10,11 +10,13 @@ int main()
     char estado1[2], codigo_carta1[4], nome_cidade1[50];
     int populacao1, pontos_turisticos1;
     float area_cidade1, pib1;
+    float densidade_populacional1, pib_percapta1; // inclusão do nível intermediário
 
     // Declaração de variáveis da segunda carta:
     char estado2[2], codigo_carta2[4], nome_cidade2[50];
     int populacao2, pontos_turisticos2;
     float area_cidade2, pib2;
+    float densidade_populacional2, pib_percapta2; // inclusão do nível intermediário
 
     // Entrada de dados da primeira carta:
     printf("\nAbaixo,informe os dados da primeira carta. \n\n");
@@ -40,6 +42,10 @@ int main()
     printf("Pontos turísticos: Insira a quantidade de pontos turísticos da cidade: \n");
     scanf("%d", &pontos_turisticos1);
 
+    // Inclusão do Nível Intermediário: Cálculo da densidade populacional e do PIB per Capta.
+    densidade_populacional1 = populacao1 / area_cidade1;
+    pib_percapta1 = pib1 / populacao1;
+
     // Exibição dos dados da primeira carta:
     printf("\nDados inseridos da Carta 1: \n");
     printf("Estado: %s \n", estado1);
@@ -49,6 +55,9 @@ int main()
     printf("Área: %.2f \n", area_cidade1);
     printf("PIB: %.2f \n", pib1);
     printf("Número de pontos turísticos: %d \n", pontos_turisticos1);
+    // Inclusão do nível intermediário: exibição da Densidade Populacional e PIB per Capta calculados.
+    printf("Densidade populacional: %.2f \n", densidade_populacional1);
+    printf("PIB per capta: %.2f\n", pib_percapta1);
 
     // Entrada de dados da segunda carta:
     printf("\nAbaixo,informe os dados da segunda carta. \n\n");
@@ -74,6 +83,10 @@ int main()
     printf("Pontos turísticos: Insira a quantidade de pontos turísticos da cidade: \n");
     scanf("%d", &pontos_turisticos2);
 
+    // Inclusão do Nível Intermediário: Cálculo da densidade populacional e do PIB per Capta.
+    densidade_populacional2 = populacao2 / area_cidade2;
+    pib_percapta2 = pib2 / populacao2;
+
     // Exibição dos dados da segunda carta:
     printf("\nDados inseridos da Carta 2: \n");
     printf("Estado: %s \n", estado2);
@@ -83,6 +96,9 @@ int main()
     printf("Área: %.2f \n", area_cidade2);
     printf("PIB: %.2f \n", pib2);
     printf("Número de pontos turísticos: %d \n", pontos_turisticos2);
+    // Inclusão do nível intermediário: exibição da Densidade Populacional e PIB per Capta calculados.
+    printf("Densidade populacional: %.2f \n", densidade_populacional2);
+    printf("PIB per capta: %.2f\n", pib_percapta2);
 
     // return 0; indica que o programa terminou com sucesso.
     return 0;
